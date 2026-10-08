@@ -96,9 +96,9 @@
     "semantic_hash": ""
   },
   "bundle_app.sh": {
-    "mtime": 1791481653.7924836,
-    "seen": 1791481773.194016,
-    "ast_hash": "4543a1429e603d5a4d80481d4edce997",
+    "mtime": 1791484943.173598,
+    "seen": 1791484975.578864,
+    "ast_hash": "c3e77f1acb2451228ba91f72fbbcba3f",
     "semantic_hash": ""
   },
   "SPECIFICATION.md": {
@@ -108,9 +108,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1791481128.0677018,
-    "seen": 1791481134.184651,
-    "ast_hash": "953610c26c833c874a3791b0c521343a",
+    "mtime": 1791484601.373471,
+    "seen": 1791484975.578864,
+    "ast_hash": "433db2ab75d1ae2f564cf7d7ea46aca9",
     "semantic_hash": ""
   },
   "Sources/Spectra/Models/NavigationSection.swift": {

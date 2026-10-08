@@ -1,13 +1,18 @@
-# Graph Report - system monitor  (2026-10-08)
+# Graph Report - system monitor  (2026-10-09)
 
 ## Corpus Check
-- 20 files · ~10,369 words
+- 20 files · ~10,523 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 233 nodes · 449 edges · 15 communities (13 shown, 2 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 23 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `bde245d7`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - SubsystemDetailView
@@ -101,7 +106,7 @@ Nodes (13): Content, MemoryDistributionBar, .body, .inUsePercent, Double, Int, S
 
 ### Community 11 - "Spectra — Precision macOS System Monitor"
 Cohesion: 0.29
-Nodes (6): 🛠️ Architecture, Build macOS App Bundle, Build & Run from Command Line, 📸 Overview Reference, 🚀 Quick Start, Spectra — Precision macOS System Monitor
+Nodes (6): 🛠️ Architecture, Build macOS App Bundle, Build & Run from Command Line, 📸 Overview Reference, 🚀 Quick Start, Spectra - Precision macOS System Monitor
 
 ### Community 12 - "OverviewDashboardView"
 Cohesion: 0.24

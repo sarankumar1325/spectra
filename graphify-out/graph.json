@@ -1575,13 +1575,13 @@
     },
     {
       "id": "readme_spectra_precision_macos_system_monitor",
-      "label": "Spectra \u2014 Precision macOS System Monitor",
+      "label": "Spectra - Precision macOS System Monitor",
       "_origin": "ast",
       "community": 11,
       "community_name": "Spectra \u2014 Precision macOS System Monitor",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "spectra \u2014 precision macos system monitor",
+      "norm_label": "spectra - precision macos system monitor",
       "source_file": "README.md",
       "source_location": "L1"
     },
@@ -7945,5 +7945,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "bde245d714a1d734f895d9206769fc372bbc2385"
 }
