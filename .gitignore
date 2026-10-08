@@ -7,4 +7,6 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 Spectra.app
+*.dmg
+*.zip
 graphify-out/cache/

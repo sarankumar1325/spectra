@@ -58,5 +58,41 @@ cat <<EOF > "${CONTENTS_DIR}/Info.plist"
 </plist>
 EOF
 
-echo "✅ Successfully bundled ${APP_NAME}.app!"
-echo "You can launch it by running: open ${APP_DIR}"
+# Sign application bundle ad-hoc for local execution
+echo "Code signing ${APP_DIR}..."
+codesign --force --deep --sign - "${APP_DIR}"
+
+# Optional direct installation to /Applications
+if [ "$1" == "--install" ] || [ "$2" == "--install" ]; then
+    echo "Installing ${APP_NAME}.app to /Applications/..."
+    rm -rf "/Applications/${APP_NAME}.app"
+    cp -R "${APP_DIR}" "/Applications/${APP_NAME}.app"
+    echo "Installed to /Applications/${APP_NAME}.app"
+fi
+
+# Create standalone zip archive
+ZIP_NAME="${APP_NAME}-v1.0.0-macOS.zip"
+echo "Creating zip archive: ${ZIP_NAME}..."
+rm -f "${ZIP_NAME}"
+ditto -c -k --sequesterRsrc --keepParent "${APP_DIR}" "${ZIP_NAME}"
+
+# Create drag-and-drop installer DMG if requested or by default
+DMG_NAME="${APP_NAME}-v1.0.0-macOS.dmg"
+echo "Creating drag-and-drop DMG: ${DMG_NAME}..."
+rm -f "${DMG_NAME}"
+STAGING_DIR=".dmg_staging"
+rm -rf "${STAGING_DIR}"
+mkdir -p "${STAGING_DIR}"
+cp -R "${APP_DIR}" "${STAGING_DIR}/"
+ln -s /Applications "${STAGING_DIR}/Applications"
+hdiutil create -volname "${APP_NAME}" -srcfolder "${STAGING_DIR}" -ov -format UDZO "${DMG_NAME}" >/dev/null
+rm -rf "${STAGING_DIR}"
+
+echo ""
+echo "=== Spectra Local Build Complete ==="
+echo "1. Application Bundle: ${APP_DIR} (signed, ready to launch)"
+echo "2. Disk Image:         ${DMG_NAME} (drag-and-drop installer)"
+echo "3. Portable Zip:       ${ZIP_NAME}"
+echo ""
+echo "To launch immediately: open ${APP_DIR}"
+echo "To install to /Applications: ./bundle_app.sh --install"
