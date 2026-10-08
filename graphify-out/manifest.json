@@ -108,15 +108,39 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1791484601.373471,
-    "seen": 1791484975.578864,
-    "ast_hash": "433db2ab75d1ae2f564cf7d7ea46aca9",
+    "mtime": 1791485018.686058,
+    "seen": 1791485057.149675,
+    "ast_hash": "5ea64d67416f090df7c19e9b0f8a2510",
     "semantic_hash": ""
   },
   "Sources/Spectra/Models/NavigationSection.swift": {
     "mtime": 1791481704.8141375,
     "seen": 1791481773.1940072,
     "ast_hash": "c322f20e0c48564c38c7bbd98c9c3eb5",
+    "semantic_hash": ""
+  },
+  "assets/spectra_cpu_detail.png": {
+    "mtime": 1791485003.1772687,
+    "seen": 1791485057.149677,
+    "ast_hash": "7a399443eceab2127dba267d16a5ece7",
+    "semantic_hash": ""
+  },
+  "assets/spectra_dashboard.png": {
+    "mtime": 1791485003.1699717,
+    "seen": 1791485057.149677,
+    "ast_hash": "22599c3f76a6977115cc5cc4c4c189be",
+    "semantic_hash": ""
+  },
+  "assets/spectra_drawer.png": {
+    "mtime": 1791485003.174171,
+    "seen": 1791485057.149678,
+    "ast_hash": "14e1f0ea6aec744fed52a62716a233f4",
+    "semantic_hash": ""
+  },
+  "assets/spectra_icon.png": {
+    "mtime": 1791485003.17994,
+    "seen": 1791485057.149678,
+    "ast_hash": "d2823fe55ac63a1aaa8c68d72eb0bbc9",
     "semantic_hash": ""
   }
 }

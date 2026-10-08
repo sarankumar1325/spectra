@@ -4,6 +4,19 @@
   "graph": {},
   "nodes": [
     {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview",
+      "label": "DotMatrixWaveformView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": "dotmatrixwaveformview",
+      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
+      "source_location": "L5"
+    },
+    {
       "id": "sources_spectra_ui_views_subsystemdetailview_subsystemdetailview",
       "label": "SubsystemDetailView",
       "_callable": true,
@@ -30,39 +43,13 @@
       "source_location": "L3"
     },
     {
-      "id": "tests_spectratests_spectratests_spectratelemetrytests",
-      "label": "SpectraTelemetryTests",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": "spectratelemetrytests",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L5"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar",
-      "label": "MemoryDistributionBar",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "memorydistributionbar",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L3"
-    },
-    {
       "id": "sources_spectra_ui_components_sidebarview_sidebarview",
       "label": "SidebarView",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
+      "community": 1,
+      "community_name": "NavigationSection",
       "file_type": "code",
       "norm_label": "sidebarview",
       "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
@@ -303,6 +290,19 @@
       "source_location": "L3"
     },
     {
+      "id": "sources_spectra_theme_spectratheme_spectratheme",
+      "label": "SpectraTheme",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "AppState",
+      "file_type": "code",
+      "norm_label": "spectratheme",
+      "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
+      "source_location": "L3"
+    },
+    {
       "id": "sources_spectra_ui_views_headerbarview_headerbarview",
       "label": "HeaderBarView",
       "_callable": true,
@@ -342,43 +342,43 @@
       "source_location": "L3"
     },
     {
+      "id": "tests_spectratests_spectratests_spectratelemetrytests",
+      "label": "SpectraTelemetryTests",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": "spectratelemetrytests",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L5"
+    },
+    {
       "id": "sources_spectra_theme_spectratheme_color",
       "label": "Color",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "color",
       "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
       "source_location": "L61"
     },
     {
-      "id": "sources_spectra_theme_spectratheme_spectratheme",
-      "label": "SpectraTheme",
+      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar",
+      "label": "MemoryDistributionBar",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
-      "norm_label": "spectratheme",
-      "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
+      "norm_label": "memorydistributionbar",
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
       "source_location": "L3"
-    },
-    {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview",
-      "label": "DotMatrixWaveformView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "DotMatrixWaveformView",
-      "file_type": "code",
-      "norm_label": "dotmatrixwaveformview",
-      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
-      "source_location": "L5"
     },
     {
       "id": "sources_spectra_ui_components_metriccardview_metricbreakdownitem",
@@ -387,7 +387,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "metricbreakdownitem",
       "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
@@ -400,7 +400,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "metriccardview",
       "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
@@ -417,6 +417,18 @@
       "norm_label": ".mono()",
       "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
       "source_location": "L56"
+    },
+    {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
+      "source_location": "L13"
     },
     {
       "id": "sources_spectra_ui_views_subsystemdetailview_subsystemdetailview_heroheader",
@@ -443,84 +455,12 @@
       "source_location": "L424"
     },
     {
-      "id": "sources_spectra_ui_views_subsystemdetailview_subsystemdetailview_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Spectra/UI/Views/SubsystemDetailView.swift",
-      "source_location": "L7"
-    },
-    {
-      "id": "tests_spectratests_spectratests_spectratelemetrytests_testmemoryintegrity",
-      "label": ".testMemoryIntegrity()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": ".testmemoryintegrity()",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L29"
-    },
-    {
-      "id": "tests_spectratests_spectratests_spectratelemetrytests_testnavigationsections",
-      "label": ".testNavigationSections()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": ".testnavigationsections()",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L46"
-    },
-    {
-      "id": "tests_spectratests_spectratests_spectratelemetrytests_testtelemetrysnapshot",
-      "label": ".testTelemetrySnapshot()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": ".testtelemetrysnapshot()",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L8"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L11"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_legenditem",
-      "label": ".legendItem()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": ".legenditem()",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L133"
-    },
-    {
       "id": "sources_spectra_ui_components_sidebarview_sidebarview_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
+      "community": 1,
+      "community_name": "NavigationSection",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
@@ -531,8 +471,8 @@
       "label": ".sectionGroup()",
       "_callable": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
+      "community": 1,
+      "community_name": "NavigationSection",
       "file_type": "code",
       "norm_label": ".sectiongroup()",
       "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
@@ -543,12 +483,24 @@
       "label": ".sidebarButton()",
       "_callable": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
+      "community": 1,
+      "community_name": "NavigationSection",
       "file_type": "code",
       "norm_label": ".sidebarbutton()",
       "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
       "source_location": "L83"
+    },
+    {
+      "id": "sources_spectra_ui_views_subsystemdetailview_subsystemdetailview_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "NavigationSection",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Spectra/UI/Views/SubsystemDetailView.swift",
+      "source_location": "L7"
     },
     {
       "id": "sources_spectra_ui_views_overviewdashboardview_overviewdashboardview_formatnetworkspeed",
@@ -573,18 +525,6 @@
       "norm_label": ".init()",
       "source_file": "Sources/Spectra/UI/Views/OverviewDashboardView.swift",
       "source_location": "L7"
-    },
-    {
-      "id": "sources_spectra_core_systemtelemetryengine_systemtelemetryengine_fetchcpumetrics",
-      "label": ".fetchCPUMetrics()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SystemMetricsSnapshot",
-      "file_type": "code",
-      "norm_label": ".fetchcpumetrics()",
-      "source_file": "Sources/Spectra/Core/SystemTelemetryEngine.swift",
-      "source_location": "L80"
     },
     {
       "id": "sources_spectra_core_systemtelemetryengine_systemtelemetryengine_generaterealalerts",
@@ -717,6 +657,18 @@
       "norm_label": ".fetchbatterymetrics()",
       "source_file": "Sources/Spectra/Core/SystemTelemetryEngine.swift",
       "source_location": "L469"
+    },
+    {
+      "id": "sources_spectra_core_systemtelemetryengine_systemtelemetryengine_fetchcpumetrics",
+      "label": ".fetchCPUMetrics()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "SystemTelemetryEngine",
+      "file_type": "code",
+      "norm_label": ".fetchcpumetrics()",
+      "source_file": "Sources/Spectra/Core/SystemTelemetryEngine.swift",
+      "source_location": "L80"
     },
     {
       "id": "sources_spectra_core_systemtelemetryengine_systemtelemetryengine_fetchdefaultaudiodevice",
@@ -923,28 +875,76 @@
       "source_location": "L9"
     },
     {
+      "id": "tests_spectratests_spectratests_spectratelemetrytests_testmemoryintegrity",
+      "label": ".testMemoryIntegrity()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": ".testmemoryintegrity()",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L29"
+    },
+    {
+      "id": "tests_spectratests_spectratests_spectratelemetrytests_testnavigationsections",
+      "label": ".testNavigationSections()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": ".testnavigationsections()",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L46"
+    },
+    {
+      "id": "tests_spectratests_spectratests_spectratelemetrytests_testtelemetrysnapshot",
+      "label": ".testTelemetrySnapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": ".testtelemetrysnapshot()",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L8"
+    },
+    {
       "id": "sources_spectra_theme_spectratheme_color_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
       "source_location": "L62"
     },
     {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview_init",
+      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": ".init()",
-      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
-      "source_location": "L13"
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_legenditem",
+      "label": ".legendItem()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "MemoryDistributionBar",
+      "file_type": "code",
+      "norm_label": ".legenditem()",
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
+      "source_location": "L133"
     },
     {
       "id": "sources_spectra_ui_components_metriccardview_metricbreakdownitem_init",
@@ -952,7 +952,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
@@ -964,7 +964,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
@@ -991,6 +991,61 @@
       "norm_label": "cgfloat",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
+      "source_location": "L29"
+    },
+    {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_cgfloat",
+      "label": "CGFloat",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": "cgfloat",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_double",
+      "label": "Double",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": "double",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_metriccardview_metriccardview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
+      "source_location": "L47"
     },
     {
       "id": "sources_spectra_ui_views_subsystemdetailview_subsystemdetailview_alertsdetailview",
@@ -1136,6 +1191,17 @@
       "source_location": ""
     },
     {
+      "id": "view",
+      "label": "View",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "SubsystemDetailView",
+      "file_type": "code",
+      "norm_label": "view",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "caseiterable",
       "label": "CaseIterable",
       "_origin": "ast",
@@ -1147,27 +1213,15 @@
       "source_location": ""
     },
     {
-      "id": "foundation",
-      "label": "Foundation",
+      "id": "content",
+      "label": "Content",
       "_origin": "ast",
       "community": 1,
       "community_name": "NavigationSection",
       "file_type": "code",
-      "norm_label": "foundation",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L2",
-      "type": "module"
-    },
-    {
-      "id": "sources_spectra_models_navigationsection",
-      "label": "NavigationSection.swift",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": "navigationsection.swift",
-      "source_file": "Sources/Spectra/Models/NavigationSection.swift",
-      "source_location": "L1"
+      "norm_label": "content",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "sources_spectra_models_navigationsection_navigationsection_alerts",
@@ -1324,16 +1378,59 @@
       "source_location": "L15"
     },
     {
-      "id": "spectra",
-      "label": "Spectra",
+      "id": "sources_spectra_ui_components_sidebarview",
+      "label": "SidebarView.swift",
       "_origin": "ast",
       "community": 1,
       "community_name": "NavigationSection",
       "file_type": "code",
-      "norm_label": "spectra",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L3",
-      "type": "module"
+      "norm_label": "sidebarview.swift",
+      "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_spectra_ui_components_sidebarview_sidebarview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "NavigationSection",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "sources_spectra_ui_components_sidebarview_swift_binding",
+      "label": "Binding",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "NavigationSection",
+      "file_type": "code",
+      "norm_label": "binding",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_sidebarview_swift_int",
+      "label": "Int",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "NavigationSection",
+      "file_type": "code",
+      "norm_label": "int",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_sidebarview_swift_string",
+      "label": "String",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "NavigationSection",
+      "file_type": "code",
+      "norm_label": "string",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "string",
@@ -1347,166 +1444,11 @@
       "source_location": ""
     },
     {
-      "id": "testing",
-      "label": "Testing",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": "testing",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L1",
-      "type": "module"
-    },
-    {
-      "id": "tests_spectratests_spectratests",
-      "label": "SpectraTests.swift",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "NavigationSection",
-      "file_type": "code",
-      "norm_label": "spectratests.swift",
-      "source_file": "Tests/SpectraTests/SpectraTests.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "content",
-      "label": "Content",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "content",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar",
-      "label": "MemoryDistributionBar.swift",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "memorydistributionbar.swift",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L33"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_inusepercent",
-      "label": ".inUsePercent",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": ".inusepercent",
-      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
-      "source_location": "L27"
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_swift_double",
-      "label": "Double",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "double",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_swift_int",
-      "label": "Int",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "int",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_memorydistributionbar_swift_string",
-      "label": "String",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "string",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_sidebarview_sidebarview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
-      "source_location": "L12"
-    },
-    {
-      "id": "sources_spectra_ui_components_sidebarview_swift_binding",
-      "label": "Binding",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "binding",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_sidebarview_swift_int",
-      "label": "Int",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "int",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_sidebarview_swift_string",
-      "label": "String",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "string",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "view",
-      "label": "View",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "View",
-      "file_type": "code",
-      "norm_label": "view",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "readme.md",
@@ -1514,76 +1456,100 @@
       "source_location": "L1"
     },
     {
-      "id": "readme_architecture",
-      "label": "\ud83d\udee0\ufe0f Architecture",
+      "id": "readme_6_core_subsystems",
+      "label": "6 Core Subsystems",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udee0\ufe0f architecture",
+      "norm_label": "6 core subsystems",
       "source_file": "README.md",
-      "source_location": "L40"
+      "source_location": "L44"
     },
     {
-      "id": "readme_build_macos_app_bundle",
-      "label": "Build macOS App Bundle",
+      "id": "readme_build_package_local_app",
+      "label": "Build & Package Local App",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "build macos app bundle",
+      "norm_label": "build & package local app",
       "source_file": "README.md",
-      "source_location": "L30"
+      "source_location": "L81"
     },
     {
-      "id": "readme_build_run_from_command_line",
-      "label": "Build & Run from Command Line",
+      "id": "readme_highlights",
+      "label": "Highlights",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "build & run from command line",
+      "norm_label": "highlights",
       "source_file": "README.md",
-      "source_location": "L21"
+      "source_location": "L14"
     },
     {
-      "id": "readme_overview_reference",
-      "label": "\ud83d\udcf8 Overview Reference",
+      "id": "readme_interface_gallery",
+      "label": "Interface Gallery",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udcf8 overview reference",
+      "norm_label": "interface gallery",
       "source_file": "README.md",
-      "source_location": "L9"
+      "source_location": "L25"
+    },
+    {
+      "id": "readme_keyboard_shortcuts",
+      "label": "\u2328\ufe0f Keyboard Shortcuts",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "README.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2328\ufe0f keyboard shortcuts",
+      "source_file": "README.md",
+      "source_location": "L57"
     },
     {
       "id": "readme_quick_start",
       "label": "\ud83d\ude80 Quick Start",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\ude80 quick start",
       "source_file": "README.md",
-      "source_location": "L19"
+      "source_location": "L70"
     },
     {
-      "id": "readme_spectra_precision_macos_system_monitor",
-      "label": "Spectra - Precision macOS System Monitor",
+      "id": "readme_run_from_command_line",
+      "label": "Run from Command Line",
       "_origin": "ast",
       "community": 11,
-      "community_name": "Spectra \u2014 Precision macOS System Monitor",
+      "community_name": "README.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "spectra - precision macos system monitor",
+      "norm_label": "run from command line",
       "source_file": "README.md",
-      "source_location": "L1"
+      "source_location": "L72"
+    },
+    {
+      "id": "readme_system_architecture",
+      "label": "\ud83d\udee0\ufe0f System Architecture",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "README.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee0\ufe0f system architecture",
+      "source_file": "README.md",
+      "source_location": "L95"
     },
     {
       "id": "sources_spectra_ui_views_overviewdashboardview",
@@ -1595,17 +1561,6 @@
       "norm_label": "overviewdashboardview.swift",
       "source_file": "Sources/Spectra/UI/Views/OverviewDashboardView.swift",
       "source_location": "L1"
-    },
-    {
-      "id": "sources_spectra_ui_views_overviewdashboardview_overviewdashboardview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "OverviewDashboardView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Spectra/UI/Views/OverviewDashboardView.swift",
-      "source_location": "L12"
     },
     {
       "id": "sources_spectra_ui_views_overviewdashboardview_overviewdashboardview_processdrawer",
@@ -2304,6 +2259,17 @@
       "source_location": ""
     },
     {
+      "id": "sources_spectra_theme_spectratheme",
+      "label": "SpectraTheme.swift",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "AppState",
+      "file_type": "code",
+      "norm_label": "spectratheme.swift",
+      "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
+      "source_location": "L1"
+    },
+    {
       "id": "sources_spectra_ui_components_dotmatrixwaveformview",
       "label": "DotMatrixWaveformView.swift",
       "_origin": "ast",
@@ -2315,14 +2281,14 @@
       "source_location": "L1"
     },
     {
-      "id": "sources_spectra_ui_components_sidebarview",
-      "label": "SidebarView.swift",
+      "id": "sources_spectra_ui_components_memorydistributionbar",
+      "label": "MemoryDistributionBar.swift",
       "_origin": "ast",
       "community": 6,
       "community_name": "AppState",
       "file_type": "code",
-      "norm_label": "sidebarview.swift",
-      "source_file": "Sources/Spectra/UI/Components/SidebarView.swift",
+      "norm_label": "memorydistributionbar.swift",
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
       "source_location": "L1"
     },
     {
@@ -2549,6 +2515,18 @@
       "type": "module"
     },
     {
+      "id": "foundation",
+      "label": "Foundation",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": "foundation",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L2",
+      "type": "module"
+    },
+    {
       "id": "iokit",
       "label": "IOKit",
       "_origin": "ast",
@@ -2608,14 +2586,49 @@
       "source_location": "L1"
     },
     {
-      "id": "sources_spectra_theme_spectratheme",
-      "label": "SpectraTheme.swift",
+      "id": "sources_spectra_models_navigationsection",
+      "label": "NavigationSection.swift",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
       "file_type": "code",
-      "norm_label": "spectratheme.swift",
-      "source_file": "Sources/Spectra/Theme/SpectraTheme.swift",
+      "norm_label": "navigationsection.swift",
+      "source_file": "Sources/Spectra/Models/NavigationSection.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "spectra",
+      "label": "Spectra",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": "spectra",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L3",
+      "type": "module"
+    },
+    {
+      "id": "testing",
+      "label": "Testing",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": "testing",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
+      "source_location": "L1",
+      "type": "module"
+    },
+    {
+      "id": "tests_spectratests_spectratests",
+      "label": "SpectraTests.swift",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "SystemTelemetryEngine.swift",
+      "file_type": "code",
+      "norm_label": "spectratests.swift",
+      "source_file": "Tests/SpectraTests/SpectraTests.swift",
       "source_location": "L1"
     },
     {
@@ -2623,53 +2636,64 @@
       "label": "String",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "string",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_dotmatrixwaveformview_body",
+      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_body",
       "label": ".body",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": ".body",
-      "source_file": "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift",
-      "source_location": "L29"
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
+      "source_location": "L33"
     },
     {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_bool",
-      "label": "Bool",
+      "id": "sources_spectra_ui_components_memorydistributionbar_memorydistributionbar_inusepercent",
+      "label": ".inUsePercent",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
+      "norm_label": ".inusepercent",
+      "source_file": "Sources/Spectra/UI/Components/MemoryDistributionBar.swift",
+      "source_location": "L27"
     },
     {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_cgfloat",
-      "label": "CGFloat",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "DotMatrixWaveformView",
-      "file_type": "code",
-      "norm_label": "cgfloat",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_spectra_ui_components_dotmatrixwaveformview_swift_double",
+      "id": "sources_spectra_ui_components_memorydistributionbar_swift_double",
       "label": "Double",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "double",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_memorydistributionbar_swift_int",
+      "label": "Int",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "MemoryDistributionBar",
+      "file_type": "code",
+      "norm_label": "int",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_components_memorydistributionbar_swift_string",
+      "label": "String",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "MemoryDistributionBar",
+      "file_type": "code",
+      "norm_label": "string",
       "source_file": "",
       "source_location": ""
     },
@@ -2678,29 +2702,18 @@
       "label": "MetricCardView.swift",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "metriccardview.swift",
       "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
       "source_location": "L1"
     },
     {
-      "id": "sources_spectra_ui_components_metriccardview_metriccardview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "DotMatrixWaveformView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Spectra/UI/Components/MetricCardView.swift",
-      "source_location": "L47"
-    },
-    {
       "id": "sources_spectra_ui_components_metriccardview_swift_double",
       "label": "Double",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "double",
       "source_file": "",
@@ -2711,11 +2724,22 @@
       "label": "String",
       "_origin": "ast",
       "community": 9,
-      "community_name": "DotMatrixWaveformView",
+      "community_name": "MemoryDistributionBar",
       "file_type": "code",
       "norm_label": "string",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "sources_spectra_ui_views_overviewdashboardview_overviewdashboardview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "MemoryDistributionBar",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Spectra/UI/Views/OverviewDashboardView.swift",
+      "source_location": "L12"
     }
   ],
   "links": [
@@ -5855,68 +5879,90 @@
     },
     {
       "source": "readme",
-      "target": "readme_spectra_precision_macos_system_monitor",
+      "target": "readme_highlights",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L1",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
-      "source": "readme_quick_start",
-      "target": "readme_build_run_from_command_line",
+      "source": "readme",
+      "target": "readme_interface_gallery",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L21",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
-      "source": "readme_quick_start",
-      "target": "readme_build_macos_app_bundle",
+      "source": "readme",
+      "target": "readme_6_core_subsystems",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L30",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
-      "source": "readme_spectra_precision_macos_system_monitor",
+      "source": "readme",
+      "target": "readme_keyboard_shortcuts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
       "target": "readme_quick_start",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L19",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
-      "source": "readme_spectra_precision_macos_system_monitor",
-      "target": "readme_architecture",
+      "source": "readme",
+      "target": "readme_system_architecture",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L40",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
-      "source": "readme_spectra_precision_macos_system_monitor",
-      "target": "readme_overview_reference",
+      "source": "readme_quick_start",
+      "target": "readme_run_from_command_line",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L9",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_quick_start",
+      "target": "readme_build_package_local_app",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -7946,5 +7992,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bde245d714a1d734f895d9206769fc372bbc2385"
+  "built_at_commit": "81a205314f6a30a8bc103ad65e99f8b3cf6c9d9f"
 }
