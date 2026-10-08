@@ -1,0 +1,17 @@
+{
+  "0": "SubsystemDetailView",
+  "1": "NavigationSection",
+  "2": "SystemMetricsSnapshot",
+  "3": "Spectra — Precision macOS System Monitor",
+  "4": "Spectra.swift",
+  "5": "SystemTelemetryEngine",
+  "6": "AppState",
+  "7": "AppUsageTickerView",
+  "8": "SystemTelemetryEngine.swift",
+  "9": "DotMatrixWaveformView",
+  "10": "View",
+  "11": "Spectra — Precision macOS System Monitor",
+  "12": "OverviewDashboardView",
+  "13": "bundle_app.sh",
+  "14": "Package.swift"
+}

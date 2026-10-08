@@ -1,0 +1,122 @@
+{
+  "Package.swift": {
+    "mtime": 1791480620.6146402,
+    "seen": 1791481119.855316,
+    "ast_hash": "6b01701ff90e74251154ef6edb897687",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/App/AppState.swift": {
+    "mtime": 1791483102.5260992,
+    "seen": 1791483206.314796,
+    "ast_hash": "3811a7ca4f9b1ad757a6ef830aaaf1ba",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/Core/SystemTelemetryEngine.swift": {
+    "mtime": 1791482959.9742873,
+    "seen": 1791483206.3147972,
+    "ast_hash": "b66ae275e0fb87948b2289369fee33c4",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/Models/SystemMetrics.swift": {
+    "mtime": 1791481888.2082777,
+    "seen": 1791483206.314799,
+    "ast_hash": "f53220f0a9ba33f661efb23abadbcf28",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/Spectra.swift": {
+    "mtime": 1791482996.1505444,
+    "seen": 1791483206.314799,
+    "ast_hash": "9319830da9d8eeddf685b1ce4844e66c",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/Theme/SpectraTheme.swift": {
+    "mtime": 1791483401.4277523,
+    "seen": 1791483967.1081479,
+    "ast_hash": "afca38520a20646cc354886927370a2e",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Components/AppUsageTickerView.swift": {
+    "mtime": 1791483559.0456953,
+    "seen": 1791483967.108149,
+    "ast_hash": "3dd074c2379fbf4b51301d9b42e09154",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Components/DotMatrixWaveformView.swift": {
+    "mtime": 1791481509.8854108,
+    "seen": 1791481773.194011,
+    "ast_hash": "bcb0d856642ada7ec5875d1378123a48",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Components/MemoryDistributionBar.swift": {
+    "mtime": 1791483527.283966,
+    "seen": 1791483967.10815,
+    "ast_hash": "10286dbcb2578709d63fdce6002109ed",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Components/MetricCardView.swift": {
+    "mtime": 1791483890.7480147,
+    "seen": 1791483967.10815,
+    "ast_hash": "7a29d59621f3d8bf89553a7944e2c5ee",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Components/SidebarView.swift": {
+    "mtime": 1791483422.8607745,
+    "seen": 1791483967.108151,
+    "ast_hash": "8c5407b6bb5289fa84289d0d47054b64",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Views/HeaderBarView.swift": {
+    "mtime": 1791483445.1809905,
+    "seen": 1791483967.108151,
+    "ast_hash": "de39280bd6c842b832b72b717c5caf52",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Views/OverviewDashboardView.swift": {
+    "mtime": 1791483869.2048693,
+    "seen": 1791483967.108151,
+    "ast_hash": "008da91d5b98b237e7409a8dee7ed0c4",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Views/SpectraMainView.swift": {
+    "mtime": 1791482868.3989167,
+    "seen": 1791483206.314803,
+    "ast_hash": "5c406062f5c9114aa8fa452acea1ac13",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/UI/Views/SubsystemDetailView.swift": {
+    "mtime": 1791483694.2653646,
+    "seen": 1791483967.1081522,
+    "ast_hash": "11f47c686475debf2c54cc6e674c8d48",
+    "semantic_hash": ""
+  },
+  "Tests/SpectraTests/SpectraTests.swift": {
+    "mtime": 1791481061.4495633,
+    "seen": 1791481119.855326,
+    "ast_hash": "6ab5a095fb55d61e68f6548ee2557ed1",
+    "semantic_hash": ""
+  },
+  "bundle_app.sh": {
+    "mtime": 1791481653.7924836,
+    "seen": 1791481773.194016,
+    "ast_hash": "4543a1429e603d5a4d80481d4edce997",
+    "semantic_hash": ""
+  },
+  "SPECIFICATION.md": {
+    "mtime": 1791480580.2773886,
+    "seen": 1791481119.855327,
+    "ast_hash": "d6f81f46c6fd7518740f8d7f252b590c",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791481128.0677018,
+    "seen": 1791481134.184651,
+    "ast_hash": "953610c26c833c874a3791b0c521343a",
+    "semantic_hash": ""
+  },
+  "Sources/Spectra/Models/NavigationSection.swift": {
+    "mtime": 1791481704.8141375,
+    "seen": 1791481773.1940072,
+    "ast_hash": "c322f20e0c48564c38c7bbd98c9c3eb5",
+    "semantic_hash": ""
+  }
+}
